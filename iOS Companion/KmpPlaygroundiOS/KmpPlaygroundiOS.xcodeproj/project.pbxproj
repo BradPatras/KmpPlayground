@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CD31C5D2C61B48D0047A244 /* Shared.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD31C562C61B1530047A244 /* Shared.xcframework */; };
+		5CD31C5E2C61B48D0047A244 /* Shared.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD31C562C61B1530047A244 /* Shared.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CD31C382C61AF180047A244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CD31C1F2C61AF150047A244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CD31C262C61AF150047A244;
+			remoteInfo = KmpPlaygroundiOS;
+		};
+		5CD31C422C61AF180047A244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CD31C1F2C61AF150047A244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CD31C262C61AF150047A244;
+			remoteInfo = KmpPlaygroundiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5CD31C5F2C61B48D0047A244 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5CD31C5E2C61B48D0047A244 /* Shared.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5CD31C272C61AF150047A244 /* KmpPlaygroundiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KmpPlaygroundiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD31C372C61AF180047A244 /* KmpPlaygroundiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KmpPlaygroundiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD31C412C61AF180047A244 /* KmpPlaygroundiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KmpPlaygroundiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD31C552C61B1300047A244 /* XCFrameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = XCFrameworks; path = ../../shared/build/XCFrameworks; sourceTree = "<group>"; };
+		5CD31C562C61B1530047A244 /* Shared.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Shared.xcframework; path = ../../shared/build/XCFrameworks/release/Shared.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5CD31C292C61AF150047A244 /* KmpPlaygroundiOS */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = KmpPlaygroundiOS; sourceTree = "<group>"; };
+		5CD31C3A2C61AF180047A244 /* KmpPlaygroundiOSTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = KmpPlaygroundiOSTests; sourceTree = "<group>"; };
+		5CD31C442C61AF180047A244 /* KmpPlaygroundiOSUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = KmpPlaygroundiOSUITests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CD31C242C61AF150047A244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD31C5D2C61B48D0047A244 /* Shared.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD31C342C61AF180047A244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD31C3E2C61AF180047A244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CD31C1E2C61AF150047A244 = {
+			isa = PBXGroup;
+			children = (
+				5CD31C292C61AF150047A244 /* KmpPlaygroundiOS */,
+				5CD31C3A2C61AF180047A244 /* KmpPlaygroundiOSTests */,
+				5CD31C442C61AF180047A244 /* KmpPlaygroundiOSUITests */,
+				5CD31C282C61AF150047A244 /* Products */,
+				5CD31C542C61B1300047A244 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5CD31C282C61AF150047A244 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CD31C272C61AF150047A244 /* KmpPlaygroundiOS.app */,
+				5CD31C372C61AF180047A244 /* KmpPlaygroundiOSTests.xctest */,
+				5CD31C412C61AF180047A244 /* KmpPlaygroundiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CD31C542C61B1300047A244 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CD31C562C61B1530047A244 /* Shared.xcframework */,
+				5CD31C552C61B1300047A244 /* XCFrameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CD31C262C61AF150047A244 /* KmpPlaygroundiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD31C4B2C61AF180047A244 /* Build configuration list for PBXNativeTarget "KmpPlaygroundiOS" */;
+			buildPhases = (
+				5CD31C232C61AF150047A244 /* Sources */,
+				5CD31C242C61AF150047A244 /* Frameworks */,
+				5CD31C252C61AF150047A244 /* Resources */,
+				5CD31C5F2C61B48D0047A244 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5CD31C292C61AF150047A244 /* KmpPlaygroundiOS */,
+			);
+			name = KmpPlaygroundiOS;
+			packageProductDependencies = (
+			);
+			productName = KmpPlaygroundiOS;
+			productReference = 5CD31C272C61AF150047A244 /* KmpPlaygroundiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CD31C362C61AF180047A244 /* KmpPlaygroundiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD31C4E2C61AF180047A244 /* Build configuration list for PBXNativeTarget "KmpPlaygroundiOSTests" */;
+			buildPhases = (
+				5CD31C332C61AF180047A244 /* Sources */,
+				5CD31C342C61AF180047A244 /* Frameworks */,
+				5CD31C352C61AF180047A244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CD31C392C61AF180047A244 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5CD31C3A2C61AF180047A244 /* KmpPlaygroundiOSTests */,
+			);
+			name = KmpPlaygroundiOSTests;
+			packageProductDependencies = (
+			);
+			productName = KmpPlaygroundiOSTests;
+			productReference = 5CD31C372C61AF180047A244 /* KmpPlaygroundiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CD31C402C61AF180047A244 /* KmpPlaygroundiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD31C512C61AF180047A244 /* Build configuration list for PBXNativeTarget "KmpPlaygroundiOSUITests" */;
+			buildPhases = (
+				5CD31C3D2C61AF180047A244 /* Sources */,
+				5CD31C3E2C61AF180047A244 /* Frameworks */,
+				5CD31C3F2C61AF180047A244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CD31C432C61AF180047A244 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5CD31C442C61AF180047A244 /* KmpPlaygroundiOSUITests */,
+			);
+			name = KmpPlaygroundiOSUITests;
+			packageProductDependencies = (
+			);
+			productName = KmpPlaygroundiOSUITests;
+			productReference = 5CD31C412C61AF180047A244 /* KmpPlaygroundiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CD31C1F2C61AF150047A244 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					5CD31C262C61AF150047A244 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					5CD31C362C61AF180047A244 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5CD31C262C61AF150047A244;
+					};
+					5CD31C402C61AF180047A244 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5CD31C262C61AF150047A244;
+					};
+				};
+			};
+			buildConfigurationList = 5CD31C222C61AF150047A244 /* Build configuration list for PBXProject "KmpPlaygroundiOS" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CD31C1E2C61AF150047A244;
+			productRefGroup = 5CD31C282C61AF150047A244 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CD31C262C61AF150047A244 /* KmpPlaygroundiOS */,
+				5CD31C362C61AF180047A244 /* KmpPlaygroundiOSTests */,
+				5CD31C402C61AF180047A244 /* KmpPlaygroundiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CD31C252C61AF150047A244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD31C352C61AF180047A244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD31C3F2C61AF180047A244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CD31C232C61AF150047A244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD31C332C61AF180047A244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD31C3D2C61AF180047A244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CD31C392C61AF180047A244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CD31C262C61AF150047A244 /* KmpPlaygroundiOS */;
+			targetProxy = 5CD31C382C61AF180047A244 /* PBXContainerItemProxy */;
+		};
+		5CD31C432C61AF180047A244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CD31C262C61AF150047A244 /* KmpPlaygroundiOS */;
+			targetProxy = 5CD31C422C61AF180047A244 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5CD31C492C61AF180047A244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CD31C4A2C61AF180047A244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CD31C4C2C61AF180047A244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KmpPlaygroundiOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradpatras.KmpPlaygroundiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CD31C4D2C61AF180047A244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KmpPlaygroundiOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradpatras.KmpPlaygroundiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5CD31C4F2C61AF180047A244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradpatras.KmpPlaygroundiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KmpPlaygroundiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KmpPlaygroundiOS";
+			};
+			name = Debug;
+		};
+		5CD31C502C61AF180047A244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradpatras.KmpPlaygroundiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KmpPlaygroundiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KmpPlaygroundiOS";
+			};
+			name = Release;
+		};
+		5CD31C522C61AF180047A244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradpatras.KmpPlaygroundiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KmpPlaygroundiOS;
+			};
+			name = Debug;
+		};
+		5CD31C532C61AF180047A244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradpatras.KmpPlaygroundiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KmpPlaygroundiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CD31C222C61AF150047A244 /* Build configuration list for PBXProject "KmpPlaygroundiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD31C492C61AF180047A244 /* Debug */,
+				5CD31C4A2C61AF180047A244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD31C4B2C61AF180047A244 /* Build configuration list for PBXNativeTarget "KmpPlaygroundiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD31C4C2C61AF180047A244 /* Debug */,
+				5CD31C4D2C61AF180047A244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD31C4E2C61AF180047A244 /* Build configuration list for PBXNativeTarget "KmpPlaygroundiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD31C4F2C61AF180047A244 /* Debug */,
+				5CD31C502C61AF180047A244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD31C512C61AF180047A244 /* Build configuration list for PBXNativeTarget "KmpPlaygroundiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD31C522C61AF180047A244 /* Debug */,
+				5CD31C532C61AF180047A244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CD31C1F2C61AF150047A244 /* Project object */;
+}
