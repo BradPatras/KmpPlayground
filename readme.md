@@ -11,7 +11,8 @@ iOS usage of the enum and it's properties:
 
 <img width="1434" alt="iOS screenshot" src="https://github.com/user-attachments/assets/0c4499ce-0459-4c92-9648-70791d42f8d6">
 
-
+### Next step:
+Try out this gradle plugin: [multiplatform-swiftpackage](https://github.com/luca992/multiplatform-swiftpackage) to make the xcframework consumable via SPM
 
 ## Wizard-generated readme:
 This is a Kotlin Multiplatform project targeting Android, iOS.
