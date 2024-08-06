@@ -1,3 +1,19 @@
+Just poking around in kmp.
+
+### First experiment, define an enum in kotlin and consume it in iOS via an XCFramework.
+Kotlin enum definition:
+
+<img width="699" alt="android screenshot" src="https://github.com/user-attachments/assets/f7da8843-c193-45f0-b75a-499fabb16163">
+
+----
+
+iOS usage of the enum and it's properties:
+
+<img width="1434" alt="iOS screenshot" src="https://github.com/user-attachments/assets/0c4499ce-0459-4c92-9648-70791d42f8d6">
+
+
+
+## Wizard-generated readme:
 This is a Kotlin Multiplatform project targeting Android, iOS.
 
 * `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
